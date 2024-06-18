@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  margin: 10px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.container {
+  text-align: left;
+}
+
+.container h1 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.container p {
+  margin-top: 0;
+}
+
+.container .btn-call-to-action {
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-call-to-action {
+  color: white;
+  background-color: grey;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+  text-decoration: none;
+}
+
+.btn-call-to-action :hover {
+  background-color: brown;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.how-it-works {
+  padding: 50px 0;
+}
+
+.how-it-works h2 {
+  margin-bottom: 20px;
+}
+
+.how-it-works div {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  box-shadow: 5px 5px black;
+  height: 200px;
+}
+
+.how-it-works img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.how-it-works h3 {
+  margin-top: 10px;
+}
+
+.how-it-works p {
+  margin-top: 5px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
